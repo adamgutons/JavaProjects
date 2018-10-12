@@ -13,12 +13,7 @@ import java.util.*;
 public class practicingAgain {
     
     public static void main(String[] args) {
-        /*
-        final String[] choices = {"rock", "paper", "scissors"};
-        Random random = new Random();
-        int index = random.nextInt(choices.length);
-        System.out.println(choices[index]);
-        */
+        
         boolean startGame = true;
         String quitGame = "quit";
         int counter = 0;

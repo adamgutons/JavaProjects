@@ -1,3 +1,5 @@
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,9 +14,10 @@ import java.util.*;
 
 public class gamePlay {
     
-    private String paper = "paper";
-    private String rock = "rock";
-    private String scissors = "scissors";
+    private final String paper = "paper";
+    private final String rock = "rock";
+    private final String scissors = "scissors";
+    private final String[] wordArray = {"rock", "paper", "scissors"};
     
     public String getRandomChoice(){
         final String[] choices = {paper, rock, scissors};
@@ -35,27 +38,5 @@ public class gamePlay {
     public String getScissors(){
         return scissors;
     }
-
-    /**
-     * @param paper the paper to set
-     */
-    public void setPaper(String paper) {
-        this.paper = paper;
-    }
-
-    /**
-     * @param rock the rock to set
-     */
-    public void setRock(String rock) {
-        this.rock = rock;
-    }
-
-    /**
-     * @param scissors the scissors to set
-     */
-    public void setScissors(String scissors) {
-        this.scissors = scissors;
-    }
-            
     
 }
