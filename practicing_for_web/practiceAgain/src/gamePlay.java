@@ -20,10 +20,9 @@ public class gamePlay {
     private final String[] wordArray = {"rock", "paper", "scissors"};
     
     public String getRandomChoice(){
-        final String[] choices = {paper, rock, scissors};
         Random random = new Random();
-        int index = random.nextInt(choices.length);
-        return choices[index];
+        int index = random.nextInt(wordArray.length);
+        return wordArray[index];
     }
     
     
